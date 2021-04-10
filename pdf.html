@@ -177,22 +177,18 @@
        <p>${full_date}</p>
      </header>
 
-     <section>
-
-     </section>
-
      <div class="info-container">
        <div class="resistance-info">
          <h3>Resistance (MegaOhms) - Last 7 days</h3>
          <section class="line-chart">
          </section>
        </div>
+    </div>
        <div class="summary">
                     <a href="${dashboard_url}" target="_blank">Check live data</a>
          </div>
        </div>
      </div>
-  </div>
    <script>
      new Chartist.Line('.line-chart', {
        labels: ${date_period},
